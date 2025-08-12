@@ -1,0 +1,81 @@
+/*all tailwind*/
+@import "tailwindcss";
+
+/*flowbite*/
+@import "flowbite/src/themes/default";
+
+/*flowbite plugin*/
+@plugin "flowbite/plugin";
+
+/*flowbite source*/
+@source "../../node_modules/flowbite";
+
+/*css*/
+body {
+  font-family: "Playwrite HU", cursive;
+}
+.head,
+.navbar {
+  background-image: url("../assets/images/imgi_12_wraper-min.png");
+  background-position: center center;
+  background-size: cover;
+  font-family: "Playwrite HU", cursive;
+}
+
+.head h1 {
+  font-size: 37px;
+  font-weight: 400;
+}
+
+.head p {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.serv,
+.pro,
+.about {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.serv h2,
+.pro h2,
+.about h2 {
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.serv p,
+.pro p,
+.about p {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.about h3 {
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.about .grid p,
+.footer p,
+.footer li {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.about label {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.footer h3 {
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.footer h6 {
+  font-size: 12px;
+  font-weight: 400;
+}
